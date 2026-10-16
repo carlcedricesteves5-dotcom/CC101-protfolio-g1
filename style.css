@@ -1,7 +1,3 @@
-/* ============================================================
-   MODERN GLOW THEME – drop-in replacement (same class names)
-   ============================================================ */
-
 @property --angle {
     syntax: "<angle>";
     initial-value: 0deg;
