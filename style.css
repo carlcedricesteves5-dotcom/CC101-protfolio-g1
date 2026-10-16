@@ -69,7 +69,7 @@ a {
     border: 2px solid var(--background);
 }
 
-/* ============ HERO ============ */
+/* ============                         HERO                                                                   ============ */
 
 .hero {
     min-height: 480px;
@@ -288,7 +288,7 @@ a {
     to { opacity: 1; transform: none; filter: blur(0); }
 }
 
-/* ============ FLOATING ORBS ============ */
+/* ============                               FLOATING ORBS                                                                ============ */
 
 .orb {
     position: absolute;
@@ -323,7 +323,7 @@ a {
     50% { transform: translateY(-28px) rotate(8deg); }
 }
 
-/* ============ TEAM SECTION ============ */
+/* ============                                          TEAM SECTION                                               ============ */
 
 .team-section {
     max-width: 1250px;
@@ -467,7 +467,7 @@ a {
     50% { opacity: 0.4; transform: scale(0.7); }
 }
 
-/* ============ ROTATING PHOTO ============ */
+/* ============                                           ROTATING PHOTO                                                    ============ */
 
 .profile-photo {
     display: block;
@@ -501,7 +501,7 @@ a {
     animation-play-state: paused;
 }
 
-/* ============ NAME / ROLE ============ */
+/* ============                                  NAME / ROLE                                                 ============ */
 
 .profile-card > h3 {
     text-align: center;
@@ -553,7 +553,7 @@ a {
     text-align: center;
 }
 
-/* ============ PROFILE NAV ============ */
+/* ============                                         PROFILE NAV                                               ============ */
 
 .profile-nav {
     display: flex;
@@ -643,7 +643,7 @@ a {
     margin-bottom: 14px;
 }
 
-/* ============ SKILL TAGS ============ */
+/* ============                                            SKILL TAGS                                               ============ */
 
 .tags {
     display: flex;
@@ -669,7 +669,7 @@ a {
     box-shadow: 0 6px 18px rgba(139, 92, 246, 0.3);
 }
 
-/* ============ AWARDS GALLERY ============ */
+/* ============                                      AWARDS GALLERY                                             ============ */
 
 .award-gallery {
     display: grid;
@@ -716,7 +716,7 @@ a {
     overflow-wrap: anywhere;
 }
 
-/* ============ PROJECT LIST ============ */
+/* ============                              PROJECT LIST                                 ============ */
 
 .project-list {
     list-style: none;
@@ -752,7 +752,7 @@ a {
     text-shadow: 0 0 10px var(--purple);
 }
 
-/* ============ ACTION BUTTONS ============ */
+/* ============                              ACTION BUTTONS                                  ============ */
 
 .contact-actions {
     display: flex;
@@ -814,7 +814,7 @@ a {
     outline-offset: 3px;
 }
 
-/* ============ FOOTER ============ */
+/* ============                                          FOOTER                                          ============ */
 
 .footer {
     text-align: center;
@@ -852,7 +852,7 @@ a {
     }
 }
 
-/* ============ ACCESSIBILITY ============ */
+/* ============                                      ACCESSIBILITY                                            ============ */
 
 a:focus-visible {
     outline: 2px solid var(--blue);
@@ -878,7 +878,7 @@ a:focus-visible {
     }
 }
 
-/* ============ TABLET ============ */
+/* ============                                   TABLET                                            ============ */
 
 @media (max-width: 850px) {
     .team-grid {
@@ -904,7 +904,7 @@ a:focus-visible {
     }
 }
 
-/* ============ MOBILE ============ */
+/* ============                                                MOBILE                                                        ============ */
 
 @media (max-width: 480px) {
     .hero {
@@ -989,8 +989,8 @@ a:focus-visible {
 
 
 /* ============================================================
-   ROUND 2 – EXTRA DESIGN LAYER
-   ============================================================ */
+                                                 ROUND 2 – EXTRA DESIGN LAYER                                         
+                                                                        ============================================================ */
 
 /* ---- scroll progress bar at the very top (modern browsers) ---- */
 @supports (animation-timeline: scroll()) {
