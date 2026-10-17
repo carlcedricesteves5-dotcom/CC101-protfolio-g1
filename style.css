@@ -1,3 +1,4 @@
+nigger
 @property --angle {
     syntax: "<angle>";
     initial-value: 0deg;
@@ -1115,17 +1116,6 @@ a:focus-visible {
     right: -140px;
     background: #2563eb;
     animation: aurora-a 20s ease-in-out infinite alternate;
-}
-
-/* ---- staggered / masonry feel on desktop ---- */
-@media (min-width: 851px) {
-    .profile-card:nth-child(even) {
-        margin-top: 48px;
-    }
-
-    .profile-card:nth-child(odd) {
-        margin-bottom: 48px;
-    }
 }
 
 /* ---- role as a gradient label ---- */
